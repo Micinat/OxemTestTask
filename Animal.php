@@ -31,5 +31,5 @@ abstract class Animal
     abstract public function getDefaultQty(): int;
 
 
-    public abstract function createNewAnimal();
+    public abstract function createNewAnimal(): object;
 }
